@@ -47,7 +47,7 @@ function loadQuestion (questionIndex) {
 	opt4.textContent = q.option4;
 };
 function OPEN (){
-    window.open('quot.html');
+    window.open('Quot.html');
 }
 
 function loadNextQuestion () {
