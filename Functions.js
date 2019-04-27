@@ -183,7 +183,7 @@ function Goleft(){
 }
 
 function ff(){
-    window.open("preference.html");
+    window.open("Preference.html");
 }
 
 function showSlides() {
