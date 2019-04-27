@@ -18,6 +18,12 @@ var questions = [{
 	"option2": "Input Unit",
 	"option3": "Central Processing Unit",
 	"option4": "Control Unit",
+},{
+	"question": "What do you expect to get back from reading?",
+	"option1": "Fun",
+	"option2": "Knowledge",
+	"option3": "Wasting Time",
+	"option4": "None of those",
 }];
 
 var currentQuestion = 0;
