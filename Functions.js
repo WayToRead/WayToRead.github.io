@@ -13,12 +13,6 @@ var questions = [{
 	"option4": "Drama",
 
 }, {
-	"question": "The ------ is the administrative section of the computer system?",
-	"option1": "Memory Unit",
-	"option2": "Input Unit",
-	"option3": "Central Processing Unit",
-	"option4": "Control Unit",
-},{
 	"question": "What do you expect to get back from reading?",
 	"option1": "Fun",
 	"option2": "Knowledge",
