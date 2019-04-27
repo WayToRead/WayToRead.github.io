@@ -321,3 +321,165 @@ ul.breadcrumb li a{
 	background-color:dimgray;
 	color: #000;
 }
+#Forget{
+font-family: tahoma,geneva,sans-serif;
+color:#fff;
+background:url(library1.jpg);
+background-size:auto;
+}
+.forget{
+	background:rgba(44,62,80,0.7);
+	padding:40px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:400px;
+ margin-left:180x;	
+}
+#ForgetForm{
+	width:240px;
+	text-align:center;
+}
+#ForgetForm input{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-family:'play',sans-serif;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border: 0.5s;
+	outline:none;
+	color:#fff;
+	}
+#ForgetForm input[type=button]{
+		border:none;
+		width:190px;
+		background:white;
+		color:#000;
+		font-size:16px;
+		line-height:25px;
+		padding:10px;
+		border-radius:15px;
+		cursor:pointer;
+	}
+#ForgetForm input[type=button]:hover{
+		color:#fff;
+		background-color:black;
+	}
+#ForgetForm h2{
+		color:white;
+	}
+#ForgetForm a{
+		color:yellow;
+		text-decoration:blink;
+	}
+#ForgetForm a:hover:{
+		color:skyblue;
+	}
+	
+	::placeholder{
+		color:aliceblue;
+		opacity:.8; /firefox/
+	}
+#snackbar{
+visibility:hidden;
+min-width:250px;
+background-color:yellow;
+color:#000;
+text-align:center;
+border-radius:2px;
+padding:16px;
+position:fixed;
+z-index:1;
+right:30%;
+top:30px;
+font-size:17px;
+margin-right:30px;
+}
+#snackbar.show{
+visibility:visible;
+-webkit-animation:fadein 0.5s,fadeout 0.5 2.5s;
+animation:fadein 0.5s,fadeout 0.5s 2.5s;
+}
+#Reset{
+font-family: tahoma,geneva,sans-serif;
+color:#fff;
+background:url(library1.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+}
+.reset{
+	background:rgba(44,62,80,0.7);
+	padding:40px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:400px;
+ margin-left:180x;	
+}
+#ResetForm{
+	width:240px;
+	text-align:center;
+}
+#ResetForm input{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-family:'fantasy',sans-serif;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border: 0.5s;
+	outline:none;
+	color:rosybrown;
+	}
+#ResetForm input[type=button]{
+		border:none;
+		width:190px;
+		background:white;
+		color:#000;
+		font-size:16px;
+		line-height:25px;
+		padding:10px;
+		border-radius:15px;
+		cursor:pointer;
+	}
+#ResetForm input[type=button]:hover{
+		color:#fff;
+		background-color:black;
+	}
+#ResetForm h2{  margin-top:15px;
+              margin-left:10px;
+		color:white;
+	}
+#ResetForm a{  font-family:tahoma,geneva,sans-serif     
+              margin-left:35px;
+		color:#FFF8DC;
+		text-decoration:blink;
+	}
+#ResetForm a:hover:{
+		color:skyblue;
+	}
+	
+	::placeholder{
+		color:aliceblue;
+		opacity:.8; /firefox/
+	}
+#msg{
+visibility:hidden;
+min-width:250px;
+background-color:yellow;
+color:#000;
+text-align:center;
+border-radius:2px;
+padding:16px;
+position:fixed;
+z-index:1;
+right:30%;
+top:30px;
+font-size:17px;
+margin-right:30px;
+}
