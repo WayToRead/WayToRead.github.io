@@ -202,3 +202,8 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+function myFunction(){
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){x.className = x.className.replace("show");},3000);
+}
