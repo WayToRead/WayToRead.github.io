@@ -1,0 +1,326 @@
+#Icons > a { color:#5D5D9E; } 
+#Icons a:visited { color:#5D5D9E; } 
+#Icons a:active { color:#5C615E; } 
+#Icons a:hover { color:#B2B3B4;background-color:blue;text-decoration:underline;font-weight:bold;} 
+
+#Home body{min-width: 80px;max-width: 80px;min-height: 80px;max-height: 80px; overflow-x: hidden; margin:0; padding:0;}
+
+#img1{position:absolute; left:26%; top:21%; width:47%; background:none;}
+#img2{position:absolute; left:27%; top:36%; width:14%; background:none;}
+#img3{ position:absolute; left:60%; top:32%; width:14%; background:none;}
+#img4{position:absolute; left:53%; top:16.5%; width:14%; background:none;}
+#img5{position:absolute; left:32%; top:12%; width:22%; background:none;}
+#img6{position:absolute; left:52%; top:69.6%; width:14%; background:none;}
+#img7{position:absolute; left:37%; top:69%; width:14%; background:none;}
+#img8{position:absolute; left:27.1%; top:54%; width:14%; background:none;}
+#img9{position:absolute; left:60%; top:51%; width:14%; background:none;}
+
+#AboutUs{
+   background-image: url(IMG/Allback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden; 
+}
+#BB{ position:absolute; 
+left:44%;
+ top:10%; 
+ background:none;
+ text-align:left;
+ }
+
+#TT { position:absolute;
+ left:22%;
+ top:40%;
+ width:732px;
+ height:50px;
+ margin-left:50px;
+ padding:5px 10px;
+ background:none;
+}
+
+#AA{position:absolute; left:70%; top:70%; width:317px; height:58px; background:none;}
+
+#QQ{position:absolute; left:14%; top:30%; width:180px; height:40px; background:none;}
+
+#WW{position:absolute; left:20%; top:70%; width:155px; height:71px; background:none;}
+
+.box {
+	position:absolute;
+	top:8%;
+	right:-16%;
+	width:300px;
+	height:100px;
+	transform: translate(-50%,-50%);
+	
+}
+input{ position:a;
+display:inline-block;
+font-size:20px;
+box-sizing:border-box;
+transition:.5s;	 
+}
+input[ type="text"]{
+	background-color: chocolate;
+    position: absolute;
+	width:130px;
+	height:30px;
+	border:none;
+	outline:none;
+	top: 10; right: 180px;
+	border-radius:25px 0 0 25px;
+}
+input[ type="submit"]{
+	position:absolute;
+	right:80px;
+	border-radius: 0 25px 25px 0;
+	width:90px;
+	height:30px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	background:#ffc107;
+	color:#fff;	
+}
+input[ type="submit"]:hover {
+	background:#ff5772;
+}
+
+ul.breadcrumb{
+    background: none ;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+	ul.breadcrumb li{
+    display:inline-block;
+}
+ ul.breadcrumb li + li:before{
+        content: "/"; 
+}
+ul.breadcrumb li a{
+    text-decoration: none;
+    color:red;
+    padding: 2px;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+    margin-top: 50px;
+}
+#mySidenav span{visibility: hidden;}
+
+#mySidenav a:hover{
+  left: 0; 
+}
+a:hover #v1{visibility: visible;}
+a:hover #v2{visibility: visible;}
+
+#Home {
+  top: 20px;
+  background-color: aliceblue;
+    color: black;
+}
+
+#categorise, #about {
+  top: 80px;
+  background-color: dimgray;
+}
+.qq:hover img{
+    filter: blur(2px);
+}
+.ww:hover img{
+    filter: blur(2px);
+}
+.ee:hover img{
+    filter: blur(2px);
+}
+.rr:hover img{
+    filter: blur(2px);
+}
+.tt:hover img{
+    filter: blur(2px);
+}
+.yy:hover img{
+    filter: blur(2px);
+}
+.uu:hover img{
+    filter: blur(2px);
+}
+.ii:hover img{
+    filter: blur(2px);
+}
+h1{text-align: center;
+    position: relative;
+    top: 70px;
+    color:brown;
+    font-size: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    transform: translate3d();
+}
+
+.grid > div {
+  background-color:aliceblue;
+  padding: 1.5rem;
+  border-radius: 1rem;
+    margin-top: 150px;
+    left: 115px;
+    left: 115px;
+    position: relative;
+    transition: 0.3s;
+  
+}
+.grid>div:hover{
+    color: brown;
+}
+
+.box {
+	position:absolute;
+	top:50px;
+	right:-16%;
+	width:300px;
+	height:100px;
+	transform: translate(-50%,-50%);
+}
+
+#size{
+    position: absolute;
+    top: 150px;
+    left: 55px;
+}
+#size h1{position: relative;
+color:brown;
+font-size: 50px;}
+
+#novel{position: relative; top:22px;}
+#manga{position: relative; top:29px;}
+#comic{position: relative; top:25px;}
+
+#topN, #downN{
+    width: 35px;
+    height: 35px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#topN{
+    transform: rotate(134deg);
+    position: absolute;
+    left: 220px;
+    top: 107px;
+}
+#downN{
+    transform: rotate(315deg);
+    position: absolute;
+    left: 220px;
+    top: 590px;
+}
+.slides{
+    width: 100px;
+}
+#NOVELS{
+    position:absolute;
+    left:187px;
+    top: 123px;
+    overflow-y:hidden;
+    height: 480px;
+    width: 120px;
+}
+
+#topC, #downC{
+    width: 35px;
+    height: 35px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#topC{
+    transform: rotate(134deg);
+    position: absolute;
+    left: 570px;
+    top: 107px;
+}
+#downC{
+    transform: rotate(315deg);
+    position: absolute;
+    left: 570px;
+    top: 590px;
+}
+#COMIC{
+    position: absolute;
+    top: 123px;
+    left: 537px;
+    overflow-y: hidden;
+    height: 480px;
+    width: 120px;
+}
+#topM, #downM{
+    width: 35px;
+    height: 35px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#topM{
+    transform: rotate(134deg);
+    position: absolute;
+    left: 906px;
+    top: 107px;
+}
+#downM{
+    transform: rotate(315deg);
+    position: absolute;
+    left: 906px;
+    top: 590px;
+}
+#MANGA{
+    position: absolute;
+    top: 124px;
+    left: 874px;
+    height: 480px;
+    width: 120px;
+    overflow-y: hidden;
+}
+#topB, #downB{
+    width: 35px;
+    height: 35px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#topB{
+    transform: rotate(134deg);
+    position: absolute;
+    left: 1215px;
+    top: 107px;
+}
+#downB{
+    transform: rotate(315deg);
+    position: absolute;
+    left: 1215px;
+    top: 590px;
+}
+#BOOKS{
+    position: absolute;
+    top: 123px;
+    left: 1180px;
+    height: 480px;
+    width: 120px;
+    overflow-y: hidden;
+}
+
