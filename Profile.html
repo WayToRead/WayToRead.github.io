@@ -38,9 +38,77 @@ p.one
   margin-left:120px;
   margin-right:100px;
 }
+    ul.breadcrumb{
+    background-color:NONE;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+	ul.breadcrumb li{
+    display:inline-block;
+}
+ ul.breadcrumb li + li:before{
+        content: "/";
+}
+ul.breadcrumb li a{
+    text-decoration: none;
+    color:red;
+    padding: 2px;
+}
+    #mySidenav span{visibility: hidden;}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  margin-top: 55px;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+a:hover #v1{visibility: visible;}
+a:hover #v2{visibility: visible;}
+a:hover #v3{visibility: visible;}
+a:hover #v4{visibility: visible;}
+#Home {
+  top: 20px;
+  background-color: darkgrey;
+    color: black;
+}
+#AboutUs {
+  top: 80px;
+  background-color: oldlace;
+}
+
+#Mail {
+  top: 140px;
+  background-color: dimgray;
+}
+
+#categorise {
+  top: 200px;
+  background-color: lavender;
+}
  </style>
  </head>
  <body>
+     <ul class="breadcrumb">
+        <li> <a href ="Index.html">Home</a></li>
+    </ul>
+        <div id="mySidenav" class="sidenav" style="margin-top: 55px;">
+        <a href="Index.html" id="Home" style="color: black"><span id="v1">Home</span></a>
+        <a href="AboutUs.html" id="AboutUs" style="color: black; text-align: left;"><span id = "v2">AboutUs</span></a>
+        <a href="Mail.html" id="Mail" style="color: black "><span id = "v3">Mail</span></a>
+        <a href="Categorise.html" id="categorise" style="color: black"><span id  ="v4">categorise</span></a>
+    </div>
 <h3> <div> <center> <p class="one">Ireader<br> <br> </p> </center> </div> </h3>
 <img src="1.jpg" alt="profile"  id ="picture" ;> 
 <div class="container">
